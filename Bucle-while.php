@@ -1,0 +1,15 @@
+<?php
+/* 
+    El bucle while funcionará si la condición que le pasamos se cumple.
+    Para evitar un bucle infinito, tendremos que colocar un contador dentro de él.
+*/
+
+$numero = 1;
+while ($numero <= 10) {
+    //mostramos el contador del 1 al 10
+    echo $numero."<br>";
+    $numero++;
+}
+//nos muestra el valor de la variable después de salir del bucle.
+echo $numero;
+?>
