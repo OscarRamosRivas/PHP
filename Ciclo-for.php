@@ -10,13 +10,13 @@ for ($i=1; $i <= 10; $i++) {
     echo $i."<br>";
 }
 
-//Tambien podemos contar hacia atras
+//También podemos contar hacia atrás
 for ($x=10; $x >=1 ; $x--) { 
     echo $x."<br>";
 }
 
 /*Podemos indicar el salto de número
-Aqui nos contará de 3 en 3 hasta 30
+Aquí nos contará de 3 en 3 hasta 30
 */
 for ($z=0; $z <= 30; $z= $z + 3) { 
     echo " - ".$z;
