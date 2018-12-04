@@ -17,8 +17,9 @@ for ($x=10; $x >=1 ; $x--) {
 
 /*Podemos indicar el salto de número
 Aquí nos contará de 3 en 3 hasta 30
+$z= $z + 3 es igual a $z+=3
 */
-for ($z=0; $z <= 30; $z= $z + 3) { 
+for ($z=0; $z <= 30; $z+=3) { 
     echo " - ".$z;
 }
 ?>

@@ -1,6 +1,7 @@
 <?php
 /* 
-    El bucle while funcionará si la condición que le pasamos se cumple.
+    while es un bucle condicional. Se repetirá el código incluido entre las llaves, hasta 
+    que deje de cumplirse la condición. 
     Para evitar un bucle infinito, tendremos que colocar un contador dentro de él.
 */
 
